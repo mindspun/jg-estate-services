@@ -9,11 +9,15 @@ function App() {
 
     if (relativePath.endsWith(".html")) return;
 
+    // Redirect /home → /
+    if (relativePath === "/home" || relativePath === "/home/") {
+      window.location.replace(basePath + "/");
+      return;
+    }
+
     const pageMap: Record<string, string> = {
       "": "home.html",
       "/": "home.html",
-      "/home": "home.html",
-      "/home/": "home.html",
       "/pricing": "pricing.html",
       "/pricing/": "pricing.html",
       "/about-us": "about-us.html",

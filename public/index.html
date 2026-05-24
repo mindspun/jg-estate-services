@@ -197,6 +197,187 @@ body{visibility:visible!important;opacity:1!important}
 }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"JG Estate Services","description":"Fast, affordable junk removal and estate cleanouts serving Washington, Ozaukee, Fond du Lac, Sheboygan, and Waukesha counties in SE Wisconsin.","url":"https://jgestates.com","telephone":"+1-262-699-0100","address":{"@type":"PostalAddress","addressLocality":"West Bend","addressRegion":"WI","addressCountry":"US"},"areaServed":[{"@type":"AdministrativeArea","name":"Washington County, WI"},{"@type":"AdministrativeArea","name":"Ozaukee County, WI"},{"@type":"AdministrativeArea","name":"Fond du Lac County, WI"},{"@type":"AdministrativeArea","name":"Sheboygan County, WI"},{"@type":"AdministrativeArea","name":"Waukesha County, WI"}],"serviceType":["Junk Removal","Estate Cleanout","Furniture Removal","Appliance Removal"],"priceRange":"$$"}</script>
+
+<style id="jge-hero-redesign">
+/* ── Hero section redesign ── */
+.elementor-element-35ca71d {
+  background-image: url('/assets/images/AdobeStock_658850755.jpeg') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative !important;
+  min-height: 88vh !important;
+}
+.elementor-element-35ca71d::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, rgba(8,30,22,0.88) 0%, rgba(8,30,22,0.70) 55%, rgba(8,30,22,0.45) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+.elementor-element-35ca71d .e-con-inner {
+  position: relative !important;
+  z-index: 1 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 48px !important;
+  padding: 96px 40px !important;
+  max-width: 1220px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+/* Left copy column */
+.jge-hero-left {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  color: #fff;
+}
+.jge-hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7fd4b4;
+  margin: 0;
+}
+.jge-hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background: #7fd4b4;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.jge-hero-h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(2.6rem, 4.2vw, 3.9rem);
+  font-weight: 800;
+  line-height: 1.08;
+  color: #fff;
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+.jge-hero-h1 em {
+  font-style: normal;
+  color: #7fd4b4;
+}
+.jge-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2px;
+}
+.jge-hero-badges span {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.90);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 100px;
+  padding: 5px 14px;
+  letter-spacing: 0.01em;
+}
+.jge-hero-desc {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.72);
+  margin: 0;
+  max-width: 430px;
+}
+.jge-hero-cta {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+.jge-hero-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff !important;
+  text-decoration: none !important;
+  letter-spacing: -0.01em;
+  transition: color 0.2s;
+}
+.jge-hero-phone:hover { color: #7fd4b4 !important; }
+.jge-hero-phone svg { flex-shrink: 0; }
+.jge-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1C4B41 !important;
+  background: #7fd4b4;
+  border-radius: 6px;
+  padding: 11px 24px;
+  text-decoration: none !important;
+  letter-spacing: 0.01em;
+  transition: background 0.2s, transform 0.15s;
+}
+.jge-hero-btn:hover { background: #5fc4a2; transform: translateY(-1px); }
+/* Right form column */
+.jge-hero-right {
+  flex: 0 0 44%;
+}
+.jge-form-card {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 28px 64px rgba(0,0,0,0.28), 0 4px 18px rgba(0,0,0,0.14);
+}
+.jge-form-card-header {
+  background: #1C4B41;
+  padding: 20px 26px 18px;
+}
+.jge-form-card-header h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 3px;
+  letter-spacing: -0.01em;
+}
+.jge-form-card-header p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.65);
+  margin: 0;
+}
+.jge-form-card-body { padding: 0; }
+@media (max-width: 900px) {
+  .elementor-element-35ca71d .e-con-inner {
+    flex-direction: column !important;
+    padding: 64px 24px 56px !important;
+    gap: 36px !important;
+  }
+  .jge-hero-left { flex: none; width: 100%; }
+  .jge-hero-right { flex: none; width: 100%; }
+  .jge-hero-h1 { font-size: 2.4rem; }
+}
+@media (max-width: 480px) {
+  .elementor-element-35ca71d { min-height: 0 !important; }
+  .elementor-element-35ca71d .e-con-inner { padding: 48px 20px 44px !important; }
+}
+</style>
+
 </head>
 
 <body class="home wp-singular page-template page-template-elementor_header_footer page page-id-50 wp-embed-responsive wp-theme-wastewise wp-child-theme-wastewise-child ehf-header ehf-footer ehf-template-wastewise ehf-stylesheet-wastewise-child elementor-default elementor-template-full-width elementor-kit-2970 elementor-page elementor-page-50">
@@ -678,33 +859,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                 <div class="elementor-element elementor-element-35ca71d e-flex e-con-boxed e-con e-parent" data-id="35ca71d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3152,&quot;url&quot;:&quot;assets/images/\/2025\/09\/AdobeStock_658850755.jpeg&quot;}],&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
                                         <div class="e-con-inner">
-                <div class="elementor-element elementor-element-b1621c1 e-con-full e-flex e-con e-child" data-id="b1621c1" data-element_type="container" data-e-type="container">
-                <div class="elementor-element elementor-element-dd89d2f e-con-full e-flex e-con e-child" data-id="dd89d2f" data-element_type="container" data-e-type="container">
-                                <div class="elementor-element elementor-element-2c93469 elementor-widget elementor-widget-react-heading" data-id="2c93469" data-element_type="widget" data-e-type="widget" data-widget_type="react-heading.default">
-                                <div class="elementor-widget-container">
-                                        
-                <div class="animated-fadeIn react-heading">
-                    <div class="rts__section__inner">
-                           <span class="rts__section__subtitle fadeIn">Clearing Clutter, Creating Clean Spaces</span><div class="fadeIn">
-                    <h2 class="rts__section__title">Quick, Affordable Junk Removal Starts Here</h2>
-                </div>              </div>
-                    
-                        
-                </div>
-                                                </div>
-                                </div>
-                                </div>
-                <div class="elementor-element elementor-element-2c45026 e-con-full e-flex e-con e-child" data-id="2c45026" data-element_type="container" data-e-type="container">
-                                <div class="elementor-element elementor-element-e0100b1 elementor-widget elementor-widget-text-editor" data-id="e0100b1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-                                                                        <p>Providing dependable junk hauling for homes, businesses, and property managers in Southeastern Wisconsin. From single items to full cleanouts. Our team makes disposal simple, keeps neighborhoods clean, and ensures responsible recycling whenever possible.</p>                                                           </div>
-                                </div>
-                                </div>
-                <div class="elementor-element elementor-element-bfc5431 e-con-full e-flex e-con e-child" data-id="bfc5431" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-element elementor-element-ed4058f elementor-widget elementor-widget-html" data-id="ed4058f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-                                        <div id="70ad09c0-29e5-4b3f-b648-6642ff3dff80-4647693"></div>
+<div class="jge-hero-left">
+  <p class="jge-hero-eyebrow">SE Wisconsin's Trusted Junk Removal</p>
+  <h1 class="jge-hero-h1">Quick, Affordable<br>Junk Removal<br><em>Starts Here</em></h1>
+  <div class="jge-hero-badges">
+    <span>&#10003;&nbsp;Same-Week Pickup</span>
+    <span>&#10003;&nbsp;Upfront Pricing</span>
+    <span>&#10003;&nbsp;Eco-Friendly Disposal</span>
+    <span>&#10003;&nbsp;Licensed &amp; Insured</span>
+  </div>
+  <p class="jge-hero-desc">Dependable junk hauling for homes, businesses, and property managers across SE Wisconsin. From single items to full estate cleanouts — disposal made simple.</p>
+  <div class="jge-hero-cta">
+    <a class="jge-hero-phone" href="tel:2626990100">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V21a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+      262-699-0100
+    </a>
+    <a class="jge-hero-btn" href="/contact/">Get a Free Quote</a>
+  </div>
+</div>
+<div class="jge-hero-right">
+  <div class="jge-form-card">
+    <div class="jge-form-card-header">
+      <h3>Book Your Pickup</h3>
+      <p>Takes less than 2 minutes &mdash; no commitment</p>
+    </div>
+    <div class="jge-form-card-body">
+      <div id="70ad09c0-29e5-4b3f-b648-6642ff3dff80-4647693"></div>
 <link rel="stylesheet" href="assets/css/work_request_embed.css" media="screen">
-<script data-minify="1" src="assets/js/work_request_embed_snippet.js" clienthub_id="70ad09c0-29e5-4b3f-b648-6642ff3dff80-4647693" form_url="https://clienthub.getjobber.com/client_hubs/70ad09c0-29e5-4b3f-b648-6642ff3dff80/public/work_request/embedded_work_request_form?form_id=4647693"></script>                          </div>
-                                </div>
+<script data-minify="1" src="assets/js/work_request_embed_snippet.js" clienthub_id="70ad09c0-29e5-4b3f-b648-6642ff3dff80-4647693" form_url="https://clienthub.getjobber.com/client_hubs/70ad09c0-29e5-4b3f-b648-6642ff3dff80/public/work_request/embedded_work_request_form?form_id=4647693"></script>
+    </div>
+  </div>
+</div>
                                         </div>
                                 </div>
                 <div class="elementor-element elementor-element-718a190 e-flex e-con-boxed e-con e-parent" data-id="718a190" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

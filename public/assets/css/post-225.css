@@ -107,3 +107,9 @@
   width: 16px !important;
   height: 16px !important;
 }
+
+/* Swap to the full all-white logo inside the mobile canvas */
+.elementor-225 .elementor-element-67eec06 .hfe-site-logo-container img {
+  content: url('/assets/images/jge-logo.png') !important;
+  width: 200px !important;
+}

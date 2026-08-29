@@ -10,7 +10,8 @@
 .jge-brand img{display:block;width:184px;height:auto;object-fit:contain}
 .jge-nav{display:flex;align-items:center;gap:23px;font-size:13px;font-weight:600}
 .jge-nav a{text-decoration:none;opacity:.82;transition:opacity .2s,color .2s}
-.jge-nav a:hover{opacity:1;color:var(--jge-lime)}
+.jge-site-header .jge-nav>a:not(.jge-nav-cta),.jge-site-header .jge-nav-dropdown>.jge-nav-trigger{color:#fff!important}
+.jge-site-header .jge-nav>a:hover,.jge-site-header .jge-nav-dropdown>.jge-nav-trigger:hover{opacity:1;color:var(--jge-lime)!important}
 .jge-nav .jge-nav-cta{opacity:1;background:var(--jge-lime);color:var(--jge-ink-deep);padding:10px 17px;border-radius:999px}
 .jge-page-shell{max-width:1120px;margin:0 auto;padding:26px 28px 76px}
 .jge-breadcrumbs{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--jge-muted);font-size:12px;margin:4px 0 32px}

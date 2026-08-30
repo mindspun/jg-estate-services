@@ -523,6 +523,8 @@ function shellHead(title, description, canonical, schema) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="./">
+  <link rel="icon" href="/assets/images/icon.webp" sizes="32x32">
+  <link rel="icon" href="/assets/images/icon.webp" sizes="192x192">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <meta name="robots" content="index, follow, max-image-preview:large">

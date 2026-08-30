@@ -142,6 +142,16 @@
 .jge-process-step .elementor-image-box-img img{display:block!important;width:48px!important;height:48px!important;object-fit:contain!important}
 .jge-process-step .elementor-image-box-title{color:#173c35!important;font-family:JGEJakarta,Arial,sans-serif!important;font-size:15px!important;font-weight:700!important;letter-spacing:-.02em!important;margin:0 0 10px!important}
 .jge-process-step .elementor-image-box-description{color:#75827c!important;font-size:12px!important;line-height:1.65!important;margin:0!important}
+.jge-home-services{padding:clamp(70px,8vw,116px) 5vw!important}
+.jge-home-services>.e-con-inner{width:min(1180px,100%)!important;max-width:1180px!important;margin:0 auto!important;padding:0!important;display:grid!important;grid-template-columns:minmax(250px,.72fr) minmax(0,1.28fr)!important;gap:68px!important;align-items:start!important}
+.jge-home-services-copy h2{margin:8px 0 19px!important;color:#173c35!important;font-family:JGEJakarta,Arial,sans-serif!important;font-size:clamp(2.15rem,3.8vw,3.65rem)!important;line-height:1.07!important;letter-spacing:-.06em!important}
+.jge-home-services-copy>p:not(.jge-card-kicker){margin:0!important;color:#66746e!important;font-size:14px!important;line-height:1.8!important}
+.jge-home-service-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.jge-home-service-card{position:relative;display:flex;min-height:205px;padding:25px 48px 25px 25px;flex-direction:column;border:1px solid var(--jge-line);border-radius:14px;background:#fff;color:var(--jge-ink)!important;text-decoration:none!important;transition:transform .2s,border-color .2s,box-shadow .2s}
+.jge-home-service-card:hover{transform:translateY(-2px);border-color:#b8d787;box-shadow:0 12px 28px rgba(13,43,38,.08)}
+.jge-home-service-card strong{font-family:JGEJakarta,Arial,sans-serif;font-size:18px;line-height:1.25;letter-spacing:-.025em}
+.jge-home-service-card span{margin-top:14px;color:#66746e;font-size:12px;line-height:1.65}
+.jge-home-service-card b{position:absolute;top:23px;right:23px;color:#6e9d31;font-size:17px;font-weight:700}
 .jge-nav-dropdown{position:relative}
 .jge-nav-trigger{display:inline-flex;align-items:center;gap:6px}
 .jge-nav-trigger span{font-size:12px;line-height:1;transition:transform .2s ease}
@@ -171,7 +181,8 @@ body.home .elementor-42 .elementor-element.elementor-element-1e0dd15{display:non
 @media(max-width:1000px){.elementor-element-e88bdab .elementor-element-0241adb{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:800px){.jge-legacy-page-header~.e-con.e-parent{--padding-left:18px!important;--padding-right:18px!important}.elementor-element-e88bdab{--padding-top:54px!important;--padding-bottom:32px!important}.elementor-element-e88bdab .elementor-element-0241adb{grid-template-columns:1fr!important;gap:18px!important}#booking{--padding-top:16px!important}.jge-booking-intro{display:none}.jge-mobile-booking-cta{display:block;width:100%;padding:28px 24px;border-radius:18px;background:var(--jge-ink);color:#fff}.jge-mobile-booking-cta h2{margin:7px 0 12px;color:#fff;font-family:JGEJakarta,Arial,sans-serif;font-size:27px;line-height:1.15;letter-spacing:-.04em}.jge-mobile-booking-cta>p:not(.jge-card-kicker){margin:0;color:rgba(255,255,255,.74);line-height:1.7}.jge-mobile-booking-cta .jge-button{margin-top:22px}.jge-mobile-booking-cta~.elementor-widget-html{display:none!important}}
 @media(max-width:800px){.jge-process-section{padding:70px 20px!important}.jge-process-heading{display:block!important;margin-bottom:35px!important}.jge-process-intro{margin-top:18px!important}.jge-process-intro p{max-width:520px!important}.jge-process-content{display:block!important}.jge-process-media img{height:min(118vw,520px)!important;margin-bottom:42px!important}.jge-process-steps{gap:36px 24px!important}}
-@media(max-width:430px){.jge-brand img{width:154px;height:auto}.jge-nav .jge-nav-cta{padding:9px 13px;font-size:12px}.jge-related-list,.jge-city-list{grid-template-columns:1fr}.jge-footer-inner{grid-template-columns:1fr}}
+@media(max-width:800px){.jge-home-services{padding:70px 20px!important}.jge-home-services>.e-con-inner{grid-template-columns:1fr!important;gap:36px!important}.jge-home-services-copy>p:not(.jge-card-kicker){max-width:620px}.jge-home-service-card{min-height:185px}}
+@media(max-width:430px){.jge-brand img{width:154px;height:auto}.jge-nav .jge-nav-cta{padding:9px 13px;font-size:12px}.jge-related-list,.jge-city-list,.jge-home-service-grid{grid-template-columns:1fr}.jge-home-service-card{min-height:0}.jge-footer-inner{grid-template-columns:1fr}}
 @media(max-width:800px){
   .jge-site-header{position:relative;z-index:2000}
   .jge-header-inner{min-height:72px}

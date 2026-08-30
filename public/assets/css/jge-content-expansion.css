@@ -178,5 +178,11 @@
   .jge-home-navigation .jge-mobile-menu{display:block!important}
   .jge-home-navigation .jge-nav{display:none!important}
   .jge-home-navigation+.elementor-widget-rt-mega-navigation-menu{display:none!important}
+  body.home .elementor-42 .elementor-element.elementor-element-9adf4be{--padding-top:14px;--padding-bottom:14px;--padding-left:20px;--padding-right:20px;min-height:72px}
+  body.home .elementor-42 .elementor-element.elementor-element-9adf4be>.e-con-inner{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:space-between!important;width:100%!important}
+  body.home .elementor-42 .elementor-element.elementor-element-953f8b0{--width:auto;flex:0 0 auto!important}
+  body.home .elementor-42 .elementor-element.elementor-element-2efd8ec .hfe-site-logo-container img{width:154px!important;max-width:154px!important;height:auto!important}
+  body.home .elementor-42 .elementor-element.elementor-element-721158f{--width:auto;flex:0 0 auto!important;margin-left:auto!important}
+  body.home .elementor-42 .elementor-element.elementor-element-1ad057f{display:none!important}
 }
 @media(max-width:430px){.jge-mobile-section>div{grid-template-columns:1fr}.jge-mobile-section a{min-height:40px}}

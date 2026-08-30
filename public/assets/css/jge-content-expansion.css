@@ -14,6 +14,8 @@
 .jge-site-header .jge-nav>a:hover,.jge-site-header .jge-nav-dropdown>.jge-nav-trigger:hover{opacity:1;color:var(--jge-lime)!important}
 .jge-nav .jge-nav-cta{opacity:1;background:var(--jge-lime);color:var(--jge-ink-deep);padding:10px 17px;border-radius:999px}
 .jge-page-shell{max-width:1120px;margin:0 auto;padding:26px 28px 76px}
+.jge-legacy-page-header{display:block;background:var(--jge-paper);color:var(--jge-ink-deep)}
+.jge-legacy-page-header .jge-page-shell{padding-bottom:24px}
 .jge-breadcrumbs{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--jge-muted);font-size:12px;margin:4px 0 32px}
 .jge-breadcrumbs a{text-decoration:none;color:var(--jge-ink);font-weight:700}
 .jge-breadcrumbs a:hover{text-decoration:underline}
@@ -21,7 +23,7 @@
 .jge-page-hero:after{content:"";position:absolute;width:380px;height:380px;border:1px solid rgba(154,203,69,.35);border-radius:50%;right:-170px;top:-120px;box-shadow:0 0 0 22px rgba(154,203,69,.05),0 0 0 44px rgba(154,203,69,.035)}
 .jge-page-hero>div{position:relative;z-index:1}
 .jge-eyebrow,.jge-card-kicker{color:#9acb45;font-size:11px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;margin:0 0 13px}
-.jge-page-hero h1{font-family:JGEJakarta,Arial,sans-serif;font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.04;letter-spacing:-.065em;max-width:880px;margin:0 0 22px}
+.jge-page-hero h1{font-family:JGEJakarta,Arial,sans-serif;font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.04;letter-spacing:-.065em;max-width:880px;margin:0 0 22px;color:#fff}
 .jge-lede{color:rgba(255,255,255,.75);font-size:17px;line-height:1.75;max-width:820px;margin:0}
 .jge-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:31px}
 .jge-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:13px 19px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:800;transition:transform .2s,background .2s,box-shadow .2s}

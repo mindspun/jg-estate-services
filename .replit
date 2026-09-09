@@ -1,0 +1,9 @@
+modules = ["nodejs-24", "python-base-3.13"]
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 180000
+
+[[ports]]
+localPort = 3000
+externalPort = 80

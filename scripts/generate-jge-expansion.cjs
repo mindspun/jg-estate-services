@@ -1280,6 +1280,7 @@ function updateExistingPages() {
     if (filePath === path.join(publicDir, "index.html")) {
       html = replaceHomepageMissionSection(html);
       html = html.replace(/<script type="application\/ld\+json">.*?<\/script>/s, `<script type="application/ld+json">${schemaFor("JG Estate Services", "Locally owned junk removal and estate cleanouts based in West Bend, Wisconsin.", "https://jgestates.com/", "Junk removal and estate cleanouts")}</script>`);
+      html = html.replace(/Serving 5 counties/g, "Serving 6 counties");
       html = html.replace(/<meta property="og:title" content="[^"]*"/, '<meta property="og:title" content="Junk Removal and Cleanouts in SE Wisconsin | JG Estate Services"');
       html = html.replace(/<meta name="twitter:title" content="[^"]*"/, '<meta name="twitter:title" content="Junk Removal and Cleanouts in SE Wisconsin | JG Estate Services"');
     }
